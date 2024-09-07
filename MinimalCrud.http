@@ -1,0 +1,6 @@
+@MinimalCrud_HostAddress = http://localhost:5200
+
+GET {{MinimalCrud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
