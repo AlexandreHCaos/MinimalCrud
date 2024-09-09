@@ -12,4 +12,12 @@ public class Student
         Id = Guid.NewGuid();
         isActive = true;
     }
+
+    public void UpdateName(string name){
+        Name = name;
+    }
+
+    public void Inactivate(){
+        isActive = false;
+    }
 }
